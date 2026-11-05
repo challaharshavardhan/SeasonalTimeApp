@@ -35,7 +35,7 @@ jobs:
         run: sdkmanager --install 'platforms;android-35'
 
       - name: Extract Vishnu app project
-        run: unzip -q MuhurtaVishnu.zip -d project
+        run: unzip -q MuhurtaVishnuDarkMode.zip -d project
 
       - name: Build Android APK
         run: gradle --no-daemon -p project/Muhurta-Lotus-Black-Glow-Project assembleDebug
